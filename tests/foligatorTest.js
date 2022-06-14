@@ -139,17 +139,4 @@ describe("FgtToken", async function () {
         console.log('fgtToken totalSupply: ' + (await fgtToken.methods.totalSupply().call()));
     });
 
-    // async function getRevertReason(txHash){
-    //     console.log(`getTransaction`);
-    //     const tx = await web3.eth.getTransaction(txHash).then(console.log);
-    //     var result = await web3.eth.call(tx, tx.blockNumber)
-    //     result = result.startsWith('0x') ? result : `0x${result}`
-    //     if (result && result.substr(138)) {
-    //         const reason = web3.utils.toAscii(result.substr(138))
-    //         console.log('Revert reason:', reason)
-    //         return reason
-    //     } else {
-    //         console.log('Cannot get reason - No return value')
-    //     }
-    // }
 });
