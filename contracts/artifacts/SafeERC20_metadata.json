@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenTimeLock.sol": "SafeERC20"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/FgtToken.sol": {
+			"keccak256": "0xfdf0ac5a00447334892138dc36180c9f4a06a322054593c07fe591582cb0b11f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4adee27f69d7fee3565b51f180e24a6e6619cd76b919f092685cb9326be08e18",
+				"dweb:/ipfs/QmUoHPiwSoJ92fUrWDARJ73CxjPDRkskjXvL2SWNF8w5np"
+			]
+		},
+		"contracts/TokenTimeLock.sol": {
+			"keccak256": "0x04718171cf7ca59131d8922dfc1badf19450947ad2251bd536038db9d81335b1",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://700aa5030137cbb3077085b693243b3fb3e87ab3ced9934192a14815815b9c8c",
+				"dweb:/ipfs/QmXDXx1aFztU2bQbyVCFtWU4vqfSDjzseprynkWjHrF4dR"
+			]
+		}
+	},
+	"version": 1
+}
